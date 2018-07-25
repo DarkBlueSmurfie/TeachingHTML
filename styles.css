@@ -3,6 +3,9 @@ body {
   background-color: #034f84;
   padding: 50px;
 }
+.red{
+  color: red;
+}
 .center-text {
   text-align: center;
 }
