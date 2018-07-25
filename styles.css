@@ -15,6 +15,24 @@ header{
   background-size: cover;
   background-attachment: fixed;
 }
+main{
+  display: grid;
+  grid-template-areas:
+    'inside article article'
+    'inside footer footer';
+  grid-gap: 40px;
+  padding-top: 20px;
+}
+article{
+  grid-area: article;
+  padding: 30px;
+  background-color: #daebe8;
+}
+inside{
+  grid-area: inside;
+  padding: 30px;
+  background-color: #daebe8;
+}
 footer{
   grid-area: footer;
   padding: 30px;
