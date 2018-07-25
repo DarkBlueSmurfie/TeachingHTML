@@ -3,3 +3,6 @@ body {
   background-color: #034f84;
   padding: 50px;
 }
+.center-text {
+  text-align: center;
+}
