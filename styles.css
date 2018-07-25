@@ -16,3 +16,9 @@ header{
   background-size: cover;
   background-attachment: fixed;
 }
+footer{
+  grid-area: footer;
+  padding: 30px;
+  background-color:  #92a8d1;
+  color: white;
+}
